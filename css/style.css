@@ -1,0 +1,77 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+body{
+    background-image: url(../img/fundo.jpg);
+    
+}
+
+.pag{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "o-header o-header o-header"
+    "o-main o-main o-main"
+    "o-footer o-footer o-footer";
+    height: 100%;
+}
+
+.o-header{
+    grid-area: o-header;
+    width: 100%;
+}
+
+
+.o-header img{
+    height: 30%;
+    width: 30%;
+}
+
+.o-main{
+    grid-area: o-main;
+    margin: 3%;
+    padding: 3%;
+}
+
+.carousel{
+    margin: 1% 10%;
+}
+
+.notices{
+    margin-left: 10%;
+}
+.card{
+    font-size: 1em;
+    display: flex;
+    padding: 1%;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+}
+.card_2{
+    width: 77.5%;
+}
+
+.logo_card{
+    height: 40%;
+    width: 100%;
+}
+.o-footer{
+    grid-area: o-footer;
+    height: 100%;
+    width: 100%;
+
+}
+
+.logo_rodape{
+    height: 300px;
+    width: 100%;
+}
+
